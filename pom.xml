@@ -141,16 +141,17 @@
             </build>
         </profile>
     </profiles>
-         <distributionManagement>
+        <distributionManagement>
        <snapshotRepository>
            <id>snapshots</id>
            <name>snapshots</name>
-           <url>http://18.222.158.66:8081/nexus/snapshots</url>
+           <url>http://3.19.56.156:8081/nexus/content/repositories/snapshots</url>
        </snapshotRepository>
        <repository>
            <id>releases</id>
            <name>releases</name>
-           <url>http://18.222.158.66:8081/nexus/releases</url>
+           <url>http://3.19.56.156:8081/nexus/content/repositories/releases</url>
        </repository>
-  </distributionManagement>
+   </distributionManagement>
+
 </project>
