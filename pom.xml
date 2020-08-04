@@ -46,19 +46,6 @@
             <version>3.2.0</version>
         </dependency>
     </dependencies>
-    <repositories>
-    <repository>
-            <id>central</id>
-            <name>central</name>
-            <url>http://18.222.158.66:8081/nexus/central</url>
-            <snapshots>
-                <enabled>true</enabled>
-            </snapshots>
-            <releases>
-                <enabled>true</enabled>
-            </releases>
-        </repository>
-    </repositories>
     <build>
         <defaultGoal>spring-boot:run</defaultGoal>
         <resources>
