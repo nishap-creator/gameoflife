@@ -128,7 +128,7 @@
             </build>
         </profile>
     </profiles>
-        <distributionManagement>
+      <!--  <distributionManagement>
        <snapshotRepository>
            <id>snapshots</id>
            <name>snapshots</name>
@@ -139,6 +139,6 @@
            <name>releases</name>
            <url>http://3.135.63.113:8081/nexus/content/repositories/releases</url>
        </repository>
-   </distributionManagement>
+   </distributionManagement> -->
 
 </project>
